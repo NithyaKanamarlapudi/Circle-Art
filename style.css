@@ -1,0 +1,16 @@
+h1
+{
+	color: red; 
+	font-size: 40px;
+}
+.body_background 
+{
+background-image: url(PencilBg.jpg);
+}
+
+#aCanvas
+{
+background-color: white;
+border-style: dotted;
+border-width: 3px;
+}
