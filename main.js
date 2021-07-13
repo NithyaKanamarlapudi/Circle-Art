@@ -37,9 +37,9 @@ function my_mousemove(e)
     if (mouseevent == "mousedown")
     {
         ctx.beginPath();
-        ctx.strokeStyle = red;
+        ctx.strokeStyle = "red";
         ctx.lineWidth = 3;
-        ctx.arc(current_mouse_x, current_mouse_y, radius,0 ,2 * Math.PI);
+        ctx.arc(current_mouse_x, current_mouse_y, 20 ,0 ,2 * Math.PI);
         ctx.stroke();
     }
     lastpositionx = current_mouse_x
